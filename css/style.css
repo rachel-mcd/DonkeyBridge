@@ -261,7 +261,7 @@ text-align: center;
   display: inline-block;
 }
 .Anothercall h2 {
-  color:#1982BB;
+  color:#2392CD;
 }
 /* FOOTER */
  footer {
@@ -296,7 +296,36 @@ text-align: center;
    margin: 0 auto;
    display: block;
  }
- @media (min-width: 992px){
+   @media (min-width: 480px) {
+     .container {
+       width: 465.6px;
+     }
+   }
+
+   @media (min-width: 768px) {
+     .container {
+       width: 750px;
+     }
+   }
+   @media (min-width: 992px) {
+     .container {
+       width: 970px;
+     }
+     .one-half {
+       width:46%;
+     }
+     .one-third {
+       width:29.33333%;
+     }
+     .one-fourth {
+       width:21%;
+     }
+   }
+   @media (min-width: 1200px) {
+     .container {
+       width: 1170px;
+     }
+   }
    footer{
      background-color: #2392CD;
      background-image: linear-gradient(to left,
@@ -311,6 +340,6 @@ text-align: center;
      background-color: #2392CD;
    }
    footer .logo{
-     padding: 2em 0 2em 1.5em;
+     padding: 1em 0 1em 1.5em;
    }
  }
