@@ -129,6 +129,35 @@ header .hero img {
   display: block;
   margin:3em auto 0;
 }
+@media (min-width: 480px) {
+  .header {
+    width: 465.6px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .header {
+    width: 970px;
+  }
+  .one-half {
+    width:46%;
+  }
+  .one-third {
+    width:29.33333%;
+  }
+  .one-fourth {
+    width:21%;
+  }
+}
+@media (min-width: 1200px) {
+  .header {
+    width: 1170px;
+  }
 
 /* BUTTONS */
  .btn {
@@ -297,18 +326,18 @@ text-align: center;
    display: block;
  }
    @media (min-width: 480px) {
-     .container {
+     .footer {
        width: 465.6px;
      }
    }
 
    @media (min-width: 768px) {
-     .container {
+     .footer {
        width: 750px;
      }
    }
    @media (min-width: 992px) {
-     .container {
+     .footer {
        width: 970px;
      }
      .one-half {
@@ -322,7 +351,7 @@ text-align: center;
      }
    }
    @media (min-width: 1200px) {
-     .container {
+     .footer {
        width: 1170px;
      }
    }
