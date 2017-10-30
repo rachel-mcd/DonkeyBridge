@@ -241,6 +241,28 @@ header .hero img {
   line-height: 15px;
   font-style:italic;
 }
+/* Another call to action */
+.Anothercall {
+  text-align: center;
+  display:block;
+  position:relative;
+}
+.Anothercall ul {
+width: 100%
+display: table;
+  margin: 0 auto;
+  padding:4em 0;
+}
+.Anothercall ul li {
+display; table-cell;
+width: auto;
+text-align: center;
+  list-style-type: none;
+  display: inline-block;
+}
+.Anothercall h2 {
+  color:#1982BB;
+}
 /* FOOTER */
  footer {
    background-color: #34495E;
