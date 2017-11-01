@@ -1,5 +1,5 @@
- html, body, header, footer {
-   overflow-x: visible;
+ html, body{
+   overflow-x: hidden;
  }
  body {
    font-family: "Open Sans", sans-serif;
@@ -42,15 +42,26 @@
     margin:0 2% 20px;
   }
 
-  @media (min-width: 480px) {
+  @media (min-width: 10px) {
     .container {
       width: 465.6px;
     }
+    .computerimage {
+      width: 65%;
+    }
+    .one-half {
+      position:absolute;
+    }
   }
-
   @media (min-width: 768px) {
     .container {
       width: 750px;
+    }
+    .computerimage {
+      width: 65%;
+    }
+    .one-half {
+      position:absolute;
     }
   }
   @media (min-width: 992px) {
@@ -66,10 +77,22 @@
     .one-fourth {
       width:21%;
     }
+    .computerimage {
+      width: 70%;
+    }
+    .one-half {
+      position:relative;
+    }
   }
   @media (min-width: 1200px) {
     .container {
       width: 1170px;
+    }
+    .computerimage {
+      width: 70%;
+    }
+    .one-half {
+      position:relative;
     }
   }
 
@@ -129,35 +152,6 @@ header .hero img {
   display: block;
   margin:3em auto 0;
 }
-@media (min-width: 480px) {
-  .header {
-    width: 465.6px;
-  }
-}
-
-@media (min-width: 768px) {
-  .header {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .header {
-    width: 970px;
-  }
-  .one-half {
-    width:46%;
-  }
-  .one-third {
-    width:29.33333%;
-  }
-  .one-fourth {
-    width:21%;
-  }
-}
-@media (min-width: 1200px) {
-  .header {
-    width: 1170px;
-  }
 
 /* BUTTONS */
  .btn {
@@ -325,36 +319,6 @@ text-align: center;
    margin: 0 auto;
    display: block;
  }
-   @media (min-width: 480px) {
-     .footer {
-       width: 465.6px;
-     }
-   }
-
-   @media (min-width: 768px) {
-     .footer {
-       width: 750px;
-     }
-   }
-   @media (min-width: 992px) {
-     .footer {
-       width: 970px;
-     }
-     .one-half {
-       width:46%;
-     }
-     .one-third {
-       width:29.33333%;
-     }
-     .one-fourth {
-       width:21%;
-     }
-   }
-   @media (min-width: 1200px) {
-     .footer {
-       width: 1170px;
-     }
-   }
    footer{
      background-color: #2392CD;
      background-image: linear-gradient(to left,
