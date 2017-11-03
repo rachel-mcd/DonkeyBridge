@@ -52,6 +52,9 @@
     .one-half {
       position:absolute;
     }
+    .container-footer-nav-block {
+      width: 65%;
+    }
   }
   @media (min-width: 768px) {
     .container {
@@ -61,6 +64,9 @@
       width: 65%;
     }
     .one-half {
+      position:absolute;
+    }
+    .container-footer-nav-block {
       position:absolute;
     }
   }
@@ -83,6 +89,9 @@
     .one-half {
       position:relative;
     }
+    .container-footer-nav-block {
+      position:relative;
+    }
   }
   @media (min-width: 1200px) {
     .container {
@@ -92,6 +101,9 @@
       width: 70%;
     }
     .one-half {
+      position:relative;
+    }
+    .container-footer-nav-block {
       position:relative;
     }
   }
