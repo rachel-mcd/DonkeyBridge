@@ -107,7 +107,6 @@
       position:relative;
     }
   }
-
   /* HEADER */
    header {
      color:#FFFFFF;
@@ -299,52 +298,59 @@ text-align: center;
   color:#2392CD;
 }
 /* FOOTER */
- footer {
-   background-color: #34495E;
-   background-image: linear-gradient(to top,
-      #2392CD 0%, #2392CD 50%, #18A3AC 50%, #18A3AC 100%);
-   color: #FFFFFF;
-   height: 150px;
-   position: relative;
-   overflow: hidden;
-   z-index: 0;
- }
- footer p, footer nav ul {
-   font-size:14px;
-   font-weight:100;
-   text-align: center;
-   margin: 10px auto 0;
- }
- footer nav ul li {
-   list-style-type: none;
-   display: inline;
- }
- footer nav ul li a {
-   color:#FFFFFF;
-   text-decoration: none;
- }
- footer .right-footer-block {
-   background-color: transparent;
- }
- footer .logo{
-   padding: 2.35em 0;
-   margin: 0 auto;
-   display: block;
- }
-   footer{
-     background-color: #2392CD;
-     background-image: linear-gradient(to left,
-        #2392CD 0%, #2392CD 33.33337%, #18A3AC 33.33337%, #18A3AC 100%);
-     height: 100px;
-   }
-   footer p, footer nav ul{
-     padding: 2em 0;
-     text-align: left;
-   }
-   footer .right-footer-block {
-     background-color: #2392CD;
-   }
-   footer .logo{
-     padding: 1em 0 1em 1.5em;
-   }
- }
+footer {
+  background-color: #2392CD;
+  color: #FFFFFF;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+footer p, footer nav ul {
+  font-size:14px;
+  font-weight:100;
+  text-align: center;
+  margin: 10px auto 40;
+}
+footer nav ul li {
+  list-style-type: none;
+  display: inline;
+}
+footer nav ul li a {
+  color:#FFFFFF;
+  text-decoration: none;
+}
+footer .right-footer-block {
+  background-color: transparent;
+}
+footer .logo{
+  padding: .25em 0;
+  margin: 0 auto;
+  display: block;
+}
+@media (max width: 768px) {
+  footer{
+    height: 300px;
+  }
+  footer p, footer nav ul{
+    padding: 0em 0;
+    text-align: left;
+  }
+  footer .right-footer-block {
+    background-color: transparent;
+  }
+  footer .logo{
+  padding: 0em 0;
+  width: 70px;
+  }
+  @media (min-width: 769px) {
+      footer{
+        height: 100px;
+  }
+      footer .logo{
+        padding: 1em 0;
+        width: 100px
+        }
+      footer .footer {
+        background-image: linear-gradient(to left,#2392CD 0%, #2392CD 33.33337%, #18A3AC 33.33337%, #18A3AC 100%);
+      color: #FFFFFF;
+}
