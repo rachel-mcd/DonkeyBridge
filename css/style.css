@@ -128,21 +128,6 @@ background-image: linear-gradient(0deg, #18A3AC 20%, #1982BB 48%, #1982BB 100%, 
      display: inline-block;
      margin:0 15px;
    }
-   header nav ul > li.btn-outline {
-     padding:10px 15px;
-     border:2px solid #FFFFFF;
-     border-radius: 4px;
-   }
-   header nav ul > li.btn-outline:hover {
-     background:#FFFFFF;
-   }
-   header nav ul > li > a {
-     color:#FFFFFF;
-     text-decoration: none;
-   }
-   header nav ul > li.btn-outline:hover > a {
-     color:#34495E;
-   }
    header .hero {
   text-align: center;
   display:block;
@@ -163,18 +148,6 @@ header .hero img {
   display: block;
   margin:3em auto 0;
 }
-
-/* BUTTONS */
- .btn {
-   border-radius: 4px;
-   color:#FFFFFF;
-   font-weight: 700;
-   text-decoration: none;
-   padding:10px 30px;
-   background: #F48024;
-   border: 2px solid #F48024;
-   box-shadow: 0px 2px 0px 0px #BA5C12;
- }
  /* BENEFITS */
  .benefits {
    text-align: center;
@@ -262,12 +235,6 @@ header .hero img {
   font-size:18px;
   margin-bottom:20px;
   font-weight: 100;
-}
-.box .btn {
-  position:absolute;
-  bottom:20px;
-  left:20px;
-  right:20px;
 }
 .small {
   font-size: 12px;
